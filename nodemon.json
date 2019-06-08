@@ -1,0 +1,13 @@
+{
+    "verbose": true,
+    "ignore": [
+        "node_modules",
+        "**/*.test.ts",
+        ".git"
+    ],
+    "watch": [
+        "src"
+    ],
+    "exec": "npm start",
+    "ext": "ts"
+}

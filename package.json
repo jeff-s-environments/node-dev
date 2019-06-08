@@ -1,0 +1,42 @@
+{
+    "name": "node-dev",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "ts-node src/index.ts",
+        "dev": "./node_modules/.bin/nodemon",
+        "build": "tsc -p .",
+        "test": "jest",
+        "test:live": "jest --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jeff-s-environments/node-dev.git"
+    },
+    "keywords": [],
+    "author": "Jeffrey Berry <jeffreyberry93@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jeff-s-environments/node-dev/issues"
+    },
+    "homepage": "https://github.com/jeff-s-environments/node-dev#readme",
+    "dependencies": {
+        "dotenv": "^8.0.0",
+        "express": "^4.17.1",
+        "jest": "^24.8.0",
+        "mongoose": "^5.5.13",
+        "ts-jest": "^24.0.2"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.0",
+        "@types/jest": "^24.0.13",
+        "@types/mongodb": "^3.1.28",
+        "@types/mongoose": "^5.5.5",
+        "@types/node": "^12.0.7",
+        "nodemon": "^1.19.1",
+        "ts-node": "^8.2.0",
+        "tslint": "^5.17.0",
+        "typescript": "^3.5.1"
+    }
+}
